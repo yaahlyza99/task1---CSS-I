@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sreynoy-CSS Variables Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         :root {
+            --main-bg-color: lightblue;
+            /* Define a CSS variable */
+            --main-text-color: darkblue;
+            --padding: 20px;
+        }
+        
+        body {
+            background-color: var(--main-bg-color);
+            /* Use CSS variable */
+            color: var(--main-text-color);
+            padding: var(--padding);
+        }
+        
+        h1 {
+            margin-top: var(--padding);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Explantion: CSS variables, or custom properties, allow you to store values that can be reused throughout your stylesheet, improving maintainability and consistency.</h1>
+
+    <h1>Using CSS Variables</h1>
+    <p>This paragraph demonstrates CSS variables.</p>
+
+    <h1>Changing Variable Values: Changing the values of CSS variables in the :root selector will automatically update all instances where they are used in the stylesheet, ensuring consistency and ease of updates.
+    </h1>
+</body>
+
+</html>

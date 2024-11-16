@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sreynoy-Flexbox Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            /* Space items evenly */
+            align-items: center;
+            /* Center items vertically */
+            height: 100vh;
+            /* Full height */
+        }
+        
+        .flex-item {
+            background-color: lightcoral;
+            padding: 20px;
+            margin: 10px;
+            width: 100px;
+            /* Fixed width */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Description: The Flexbox layout model simplifies responsive design by allowing elements to be aligned and distributed within a container.</h1>
+
+    <ul>
+        <h1>Key Properties</h1>
+        <li>justify-content: Aligns items horizontally (e.g., flex-start, center, space-between).</li>
+        <li>align-items: Aligns items vertically (e.g., flex-start, center, baseline).</li>
+        <li>flex-direction: Defines the direction of the flex items (e.g., row, column).</li>
+    </ul>
+
+    <div class="flex-container">
+        <div class="flex-item">Item 1</div>
+        <div class="flex-item">Item 2</div>
+        <div class="flex-item">Item 3</div>
+    </div>
+
+</body>
+
+</html>
